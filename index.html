@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+</head>
+
+<body>
+    <!doctype html>
+    <html lang="en">
+
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+        <title>Hello, world!</title>
+    </head>
+
+    <body>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-10 col-11 mx-auto">
+                    <!-- left side div -->
+                    <div class="row mt-5 gx-3">
+                        <div class="col-md-12 col-lg-8 col-11 mx-auto main_cart mb-lg-0 mb-5 shadow">
+                            <div class="card p-4">
+                                <h2 class="py-4 font-weight-bold">Cart (2 items)</h2>
+
+                                <div class="row">
+                                    <!-- cart image div -->
+                                    <div
+                                        class="col-md-5 col-11 mx-auto bg-light d-flex justify-content-center align-items-center shadow product_img">
+                                        <img src="./car_image.jpg" alt="cart image" class="img-fluid">
+                                    </div>
+
+                                    <!-- cart product details -->
+                                    <div class="col-md-7 col-11 mx-auto px-4 mt-2">
+                                        <div class="row">
+                                            <!-- product name -->
+                                            <div class="col-6 card-title">
+                                                <h1 class="mb-4 product_name">Zara T-Shirt</h1>
+                                                <p class="mb-2">T-SHIRT:CREAM</p>
+                                                <p class="mb-2">COLOR:CREAM</p>
+                                                <p class="mb-2">SIZE: M</p>
+                                            </div>
+
+                                            <!-- quantity inc dec -->
+                                            <div class="col-6">
+                                                <ul class="pagination justify-content-end set_quantity">
+                                                    <li class="page-item"><button class="page-link"
+                                                            onclick="decreaseNum()">-</button></li>
+                                                    <li class="page-item"><input type="text" name="" value="1"
+                                                            id="textbox" class="page-link"></li>
+                                                    <li class="page-item"><button class="page-link"
+                                                            onclick="increaseNum()">+</button></li>
+
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <!-- remover move and price -->
+                                        <div class="row">
+                                            <div class="col-8 d-flex justify-content-between remove_wish">
+                                                <p><i class="fa-sharp fa-regular fa-trash-can"></i>REMOVE ITEM</p>
+                                                <p><i class="fa-regular fa-heart"></i>MOVE TO WISH LIST</p>
+                                            </div>
+                                            <div class="col4 d-flex justify-content-end price_money">
+                                              <h3>$ <span id="itemval">0.00</span></h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- right side div -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+            crossorigin="anonymous"></script>
+
+
+    </body>
+
+    </html>
+</body>
+
+</html>
